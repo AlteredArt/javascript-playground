@@ -18,3 +18,7 @@ var rem = characters.shift();
 console.log(rem);
 characters.shift("R2D2");
 console.log("shift", characters);
+
+//this is our arrays for this session
+
+//next we will work on interation
