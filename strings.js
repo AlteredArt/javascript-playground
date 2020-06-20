@@ -21,3 +21,17 @@ console.log("toLowerCase()", string2.toLowerCase())
 console.log("toUpperCase()", string2.toUpperCase())
 var string3 = "       Subscribe now!      "
 console.log("trim()", string3.trim())
+
+//reverse the characters in a string
+function reverseString(w) {
+    return w.split("").reverse().join("");
+}
+console.log(reverseString("hello"));
+
+//capitalize the first letter in a string
+const name = 'samantha';
+const CapitalizeName = [
+  ...name[0].toUpperCase(),
+  ...name.slice(1)
+].join('')
+console.log(CapitalizeName);
