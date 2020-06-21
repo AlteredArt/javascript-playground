@@ -1,1 +1,1 @@
-
+var newObject = { day1: 1, day2: 2}
