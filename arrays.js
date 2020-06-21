@@ -20,12 +20,12 @@
 // console.log("shift", characters);
 //
 
-
-const pizza = 'pizza';
-//es5 .split("") takes a string and makes it an array
-const slicedPizza = pizza.split("");
-console.log(slicedPizza)
-//es6 using spread instead
-const slicedPizza2 = [...pizza];
-//Array.from() creatyes an array from a string
-const slicedPizza3 = Array.from(pizza);
+//
+// const pizza = 'pizza';
+// //es5 .split("") takes a string and makes it an array
+// const slicedPizza = pizza.split("");
+// //es6 using spread instead
+// const slicedPizza2 = [...pizza];
+// //Array.from() creatyes an array from a string
+// const slicedPizza3 = Array.from(pizza);
+// console.log(slicedPizza, slicedPizza2, slicedPizza3)
