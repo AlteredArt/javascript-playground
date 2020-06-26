@@ -148,7 +148,6 @@ function mergeSortedArray(arr1, arr2){
   if(arr2 === 0){
     return arr1;
   }
-
   while (array1Item || array2Item) {
     if (!array2Item || array1Item < array2Item) {
       mergedArray.push(array1Item)
@@ -162,7 +161,9 @@ function mergeSortedArray(arr1, arr2){
   }
   return mergedArray;
 }
-
-
-
 console.log(mergeSortedArray([0,3,4,31], [4,6,30]));
+
+//arrays continued
+let selectedColors = ["red", 'blue'];
+selectedColors[2] = 1;
+console.log(selectedColors.includes('red'));
