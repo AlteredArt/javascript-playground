@@ -38,3 +38,14 @@
 //     console.log(chars[i].name);
 //     console.log(chars[i]["voice"]);
 //   }
+
+let person = {
+  name: "Josh",
+  age: 30
+};
+//dont notation
+person.name = "John";
+//bracket notation
+let selection = "name";
+person[selection]= 'Mary';
+console.log(person.name)
