@@ -1,73 +1,73 @@
-// let twoD = [[1,2,3,4,5,6,7],
-//             [8, 10, 5 ,7, 3, 22, 6, 42],
-//             [123, 54, 12, 11, 9, 15]];
-//
-//             let rows = twoD.length;
-//             for(let i=0; i<rows; i++){
-//               let items =twoD[i].length;
-//               console.log(i, items)
-//               for(let t=0; t<items; t++){
-//                   console.log( twoD[i][t]);
-//               }
-//             }
+let twoD = [[1,2,3,4,5,6,7],
+            [8, 10, 5 ,7, 3, 22, 6, 42],
+            [123, 54, 12, 11, 9, 15]];
 
-//for each loop, convert all the names to lower case besides thorin
-// let dwarves = ["Bifur", "Bofur", "Bombur", "Fifi", "kildi", "oin", "Glorin", "Thorin", "Balin", "Dwalin", "Nori", "Dori"];
-//
-// dwarves.forEach(function(item, index, array){
-// if( item === "Thorin"){
-//   item= item.toUpperCase();
-// }else{
-//   item= item.toLowerCase();
-// }
-//   console.log(index, item);
-// })
+            let rows = twoD.length;
+            for(let i=0; i<rows; i++){
+              let items =twoD[i].length;
+              console.log(i, items)
+              for(let t=0; t<items; t++){
+                  console.log( twoD[i][t]);
+              }
+            }
 
-//sorting items in an array
-// var fruits = ["Bannana", "Orange", "Apple", "Mango"]
-// console.log(fruits.sort());
+for each loop, convert all the names to lower case besides thorin
+let dwarves = ["Bifur", "Bofur", "Bombur", "Fifi", "kildi", "oin", "Glorin", "Thorin", "Balin", "Dwalin", "Nori", "Dori"];
+
+dwarves.forEach(function(item, index, array){
+if( item === "Thorin"){
+  item= item.toUpperCase();
+}else{
+  item= item.toLowerCase();
+}
+  console.log(index, item);
+})
+
+sorting items in an array
+var fruits = ["Bannana", "Orange", "Apple", "Mango"]
+console.log(fruits.sort());
 
 
-//creating an array
-// class MyArray {
-//   constructor(){
-//     this.length = 0;
-//     this.data ={};
-//   }
-//   get(index) {
-//     return this.data[index]
-//   }
-//   push(item){
-//     this.data[this.length] = item;
-//     this.length++;
-//     return this.length;
-//   }
-//   pop(){
-//     const lastItem = this.data[this.length-1];
-//     delete this.data[this.length-1];
-//     this.length--;
-//     return lastItem;
-//   }
-//   delete(index) {
-//     const item = this.data[index];
-//     this.shiftItems(index);
-//   }
-//   //shifting the items to the left by one
-//   shiftItems(index){
-//     for(let i = index; i < this.length-1; i++){
-//       this.data[i] = this.data[i+1]
-//     }
-//     this.data[this.length-1]
-//   }
-// }
-//
-// const newArray = new MyArray();
-// newArray.push("hi")
-// newArray.push("you")
-// newArray.push('!')
-// newArray.pop();
-// newArray.pop();
-// console.log(newArray)
+creating an array
+class MyArray {
+  constructor(){
+    this.length = 0;
+    this.data ={};
+  }
+  get(index) {
+    return this.data[index]
+  }
+  push(item){
+    this.data[this.length] = item;
+    this.length++;
+    return this.length;
+  }
+  pop(){
+    const lastItem = this.data[this.length-1];
+    delete this.data[this.length-1];
+    this.length--;
+    return lastItem;
+  }
+  delete(index) {
+    const item = this.data[index];
+    this.shiftItems(index);
+  }
+  //shifting the items to the left by one
+  shiftItems(index){
+    for(let i = index; i < this.length-1; i++){
+      this.data[i] = this.data[i+1]
+    }
+    this.data[this.length-1]
+  }
+}
+
+const newArray = new MyArray();
+newArray.push("hi")
+newArray.push("you")
+newArray.push('!')
+newArray.pop();
+newArray.pop();
+console.log(newArray)
 
 //reverse a string
 function reverse(str){
