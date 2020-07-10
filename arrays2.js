@@ -11,7 +11,7 @@ let twoD = [[1,2,3,4,5,6,7],
               }
             }
 
-for each loop, convert all the names to lower case besides thorin
+// for each loop, convert all the names to lower case besides thorin
 let dwarves = ["Bifur", "Bofur", "Bombur", "Fifi", "kildi", "oin", "Glorin", "Thorin", "Balin", "Dwalin", "Nori", "Dori"];
 
 dwarves.forEach(function(item, index, array){
@@ -23,12 +23,12 @@ if( item === "Thorin"){
   console.log(index, item);
 })
 
-sorting items in an array
+// sorting items in an array
 var fruits = ["Bannana", "Orange", "Apple", "Mango"]
 console.log(fruits.sort());
 
 
-creating an array
+// creating an array
 class MyArray {
   constructor(){
     this.length = 0;
